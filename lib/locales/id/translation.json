@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "products": "Produk Kami",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "shop_name": "Toko Subur Maju",
+    "headline": "Toko Bangunan <1>Lengkap & Terpecaya</1>",
+    "address": "Jl. Setia Budi, Simpang Selayang, Kota Medan, Sumatera Utara",
+    "about_button": "Tentang Kami",
+    "product_button": "Lihat Produk"
+  },
+  "features": {
+    "title": "Keunggulan Kami",
+    "subtitle": "Kenapa Memilih Toko Subur Maju?",
+    "delivery_title": "Pengiriman Cepat",
+    "delivery_desc": "Dikirim ke lokasi Anda sesegera mungkin",
+    "quality_title": "Produk Berkualitas",
+    "quality_desc": "Produk asli berstandar SNI dengan kualitas tinggi",
+    "price_title": "Harga Terbaik",
+    "price_desc": "Harga bersaing untuk kontraktor & eceran."
+  },
+  "categories": {
+    "title": "Kategori Produk",
+    "subtitle": "Temukan material konstruksi lengkap yang Anda butuhkan.",
+    "structure": "Material Struktur (Semen/Pasir/Batu)",
+    "wood": "Kayu & Triplek",
+    "paint": "Cat & Peralatan Cat",
+    "plumbing": "Pipa & Sambungan",
+    "tools": "Alat Pertukangan",
+    "fastener": "Paku & Pengikat"
+  },
+  "contact": {
+    "title": "Tertarik Dengan Produk Kami?",
+    "subtitle": "Silahkan Hubungi atau Kunjungi Toko Kami.",
+    "location": "Lihat Lokasi & Kontak"
+  },
+  "footer": {
+    "tagline": "Toko bangunan terpecaya untuk segala kebutuhan konstruksi dan renovasi rumah Anda.",
+    "links_title": "Tautan Cepat",
+    "contact_title": "Hubungi Kami"
+  },
+  "about": {
+    "hero_title": "Toko Subur Maju",
+    "hero_desc_1": "Berdiri sejak tahun <1>2012</1>, Toko Subur Maju telah melayani ribuan pelanggan di Kota Medan dan sekitarnya sebagai mitra toko bangunan yang terpercaya. Dengan pengalaman lebih dari satu dekade, kami berkomitmen untuk mendukung berbagai kebutuhan konstruksi, baik untuk proyek skala kecil maupun besar.",
+    "hero_desc_2": "Kami menyediakan lebih dari <1>200</1> jenis material bangunan berkualitas, mulai dari bahan dasar hingga perlengkapan pendukung. Komitmen kami adalah menghadirkan produk asli, harga yang jujur dan transparan, serta pengiriman yang tepat waktu, demi memastikan setiap proyek pelanggan dapat berjalan lancar, aman, dan efisien.",
+    "info_1": "Tahun Pengalaman",
+    "info_2": "Jam Kerja",
+    "info_3": "Jenis Produk"
+  },
+  "contact_page": {
+    "title": "Hubungi Toko",
+    "subtitle": "Tertarik dengan produk kami? Silahkan hubungi kami.",
+    "phone": "Telepon / WhatsApp",
+    "address": "Alamat Toko",
+    "hours": "Jam Operasional",
+    "hours_detail": "Senin - Sabtu: 09.00 - 17.00 WIB",
+    "sunday": "Minggu: Tutup",
+    "map": "Lihat Lokasi"
+  },
+  "products": {
+    "categories": {
+      "all": "Semua",
+      "structure": "Material Struktur",
+      "tools": "Alat Pertukangan",
+      "fastener": "Paku & Pengikat",
+      "paint": "Cat & Finishing",
+      "wood": "Kayu & Triplek",
+      "plumbing": "Pipa & Plumbing",
+      "electronic": "Elektronik",
+      "others": "Lainnya"
+    },
+    "title": "Daftar Produk",
+    "subtitle": "Temukan material konstruksi yang Anda inginkan.",
+    "ask_info": "Tanya Info Produk",
+    "loading": "Memuat Daftar Produk...",
+    "empty": "Produk Tidak Ditemukan.",
+    "reset": "Reset Pencarian",
+    "whatsapp_msg": "Halo Toko Subur Maju, saya ingin bertanya informasi mengenai produk: {{productName}}"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Our Products",
+    "contact": "Contact"
+  },
+  "hero": {
+    "shop_name": "Subur Maju Store",
+    "headline": "<1>Complete & Reliable</1> Material Store",
+    "address": "Jl. Setia Budi, Simpang Selayang, Medan City, North Sumatra",
+    "about_button": "About Us",
+    "product_button": "View Products"
+  },
+  "features": {
+    "title": "Our Advantages",
+    "subtitle": "Why Choose Subur Maju Store?",
+    "delivery_title": "Fast Delivery",
+    "delivery_desc": "Shipped to your project site as soon as possible.",
+    "quality_title": "High-Quality Products",
+    "quality_desc": "Original products with high quality and  SNI standards.",
+    "price_title": "Best Prices",
+    "price_desc": "Competitive rates for contractors & retail."
+  },
+  "categories": {
+    "title": "Product Categories",
+    "subtitle": "Find complete construction materials you needed.",
+    "structure": "Basic Materials (Cements/Sands/Stones)",
+    "wood": "Woods & Plywoods",
+    "paint": "Paints & Painting Tools",
+    "plumbing": "Plumbing & Fitting",
+    "tools": "Hardware & Tools",
+    "fastener": "Nails & Screw"
+  },
+  "contact": {
+    "title": "Interested With Our Products?",
+    "subtitle": "Please Contact Us or Visit Our Store.",
+    "location": "View Address & Contact"
+  },
+  "footer": {
+    "tagline": "Your trusted material store for all construction and home renovation needs.",
+    "links_title": "Quick Links",
+    "contact_title": "Contact Us"
+  },
+  "about": {
+    "hero_title": "Subur Maju Store",
+    "hero_desc_1": "Established in <1>2012</1>, Toko Subur Maju has served thousands of customers in the city of Medan and its surrounding areas as a trusted building materials partner. With over a decade of experience, we are committed to supporting a wide range of construction needs, from small-scale projects to large developments.",
+    "hero_desc_2": "We provide more than <1>200</1> types of high-quality building materials, ranging from essential construction supplies to supporting equipment. Our commitment is to deliver genuine products, honest and transparent pricing, and timely delivery, ensuring that every customer’s project runs smoothly, safely, and efficiently.",
+    "info_1": "Years Experience",
+    "info_2": "Work Time",
+    "info_3": "Product Items"
+  },
+  "contact_page": {
+    "title": "Contact Store",
+    "subtitle": "Interested in our products? Please contact us.",
+    "phone": "Phone / WhatsApp",
+    "address": "Store Address",
+    "hours": "Opening Hours",
+    "hours_detail": "Mon - Sat: 09.00 AM - 05.00 PM WIB",
+    "sunday": "Sunday: Closed",
+    "map": "View Location"
+  },
+  "products": {
+    "categories": {
+      "all": "All",
+      "structure": "Structure Material",
+      "tools": "Tools",
+      "fastener": "Fasteners",
+      "paint": "Paint & Finishing",
+      "wood": "Woods & Plywood",
+      "plumbing": "Plumbing",
+      "electronic": "Electronics",
+      "others": "Others"
+    },
+    "title": "Product List",
+    "subtitle": "Find all construction materials you wanted.",
+    "ask_info": "Ask for Info",
+    "loading": "Loading Product List...",
+    "empty": "Product Not Found.",
+    "reset": "Reset Search",
+    "whatsapp_msg": "Halo Toko Subur Maju, saya ingin bertanya informasi mengenai produk: {{productName}}"
+  }
+}
