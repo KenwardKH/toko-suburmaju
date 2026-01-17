@@ -68,7 +68,7 @@ export default function Footer() {
               <div className="flex flex-col gap-3">
                 <p className="text-gray-400 flex items-center gap-3">
                   <FaWhatsapp className="text-yellow-500 text-xl" />
-                  +62 8123456789
+                  +62 81263251128
                 </p>
                 <p className="text-gray-400 flex items-start gap-4">
                   <FaLocationDot className="text-yellow-500 mt-1 text-lg" />

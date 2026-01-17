@@ -38,7 +38,7 @@ export default function Navbar() {
       <nav className="bg-white shadow-md w-full">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-between h-16 items-center">
-            <h1 className="text-lg md:text-xl font-bold uppercase tracking-wide">
+            <h1 className="text-lg md:text-xl text-black font-bold uppercase tracking-wide">
               <Link href="/">Suburmaju</Link>
             </h1>
 

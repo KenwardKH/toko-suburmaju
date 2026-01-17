@@ -38,7 +38,7 @@ export default function ProductCategories() {
     },
   ];
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-16 bg-stone-200">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-2">{t("categories.title")}</h1>

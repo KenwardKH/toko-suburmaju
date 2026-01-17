@@ -38,7 +38,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" suppressHydrationWarning>
-      <body className="antialiased">
+      <body
+        className="antialiased bg-gray-50"
+        suppressHydrationWarning={true}
+      >
         <I18nProvider>
           <Navbar />
           <main>{children}</main>
