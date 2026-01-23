@@ -26,20 +26,20 @@ export default function Hero() {
         <h1 className="text-yellow-400 text-xl font-bold tracking-wider uppercase">
           {t("hero.shop_name")}
         </h1>
-        <p className="text-4xl md:text-6xl font-bold text-white tracking-tight m-0">
+        <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tight m-0">
           <Trans
             i18nKey="hero.headline"
             components={{
               1: <span className="text-yellow-500 block mt-1"></span>,
             }}
           />
-        </p>
-        <p className="text-white flex text-xl items-center space-x-2 mt-4">
+        </h2>
+        <h3 className="text-white flex text-xl items-center space-x-2 mt-4">
           <FaLocationDot />
           <span className="text-base md:text-xl font-medium">
             {t("hero.address")}
           </span>
-        </p>
+        </h3>
         <div className="flex space-x-6 mt-6">
           <Link href="about">
             <button className="flex px-6 py-3 text-yellow-500 border-2 border-yellow-400 w-auto rounded-md hover:bg-yellow-500 hover:text-black transform duration-100 active:bg-yellow-600 font-bold">

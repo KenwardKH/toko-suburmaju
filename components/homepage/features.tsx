@@ -25,10 +25,10 @@ export default function Features() {
   return (
     <section className="py-16">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-2">{t("features.title")}</h1>
-        <h2 className="text-2xl font-semibold">
+        <div className="text-4xl font-bold mb-2">{t("features.title")}</div>
+        <div className="text-2xl font-semibold">
           {t("features.subtitle")}
-        </h2>
+        </div>
       </div>
 
       <div className="container mx-auto px-6">
@@ -41,7 +41,7 @@ export default function Features() {
               <div className="text-4xl p-4 mb-2 bg-yellow-200 rounded-full text-orange-500">
                 {item.icon}
               </div>
-              <h2 className="font-bold text-xl">{item.title}</h2>
+              <div className="font-bold text-xl">{item.title}</div>
               <p className="text-gray-600 text-balance">{item.desc}</p>
             </div>
           ))}

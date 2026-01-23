@@ -41,8 +41,8 @@ export default function ProductCategories() {
     <section className="py-16 bg-stone-200">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold mb-2">{t("categories.title")}</h1>
-          <h2 className="text-2xl font-semibold">{t("categories.subtitle")}</h2>
+          <div className="text-4xl font-bold mb-2">{t("categories.title")}</div>
+          <div className="text-2xl font-semibold">{t("categories.subtitle")}</div>
         </div>
         <div className="w-full flex justify-center">
           <div className="flex flex-wrap justify-center gap-3 md:gap-8 max-w-7xl">

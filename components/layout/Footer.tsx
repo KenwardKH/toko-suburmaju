@@ -17,15 +17,15 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
           <div className="grid md:grid-cols-3 grid-cols-1 gap-12 py-8 border-b border-gray-400 mb-4">
             <div className="">
-              <h1 className="text-2xl uppercase font-bold text-yellow-500 mb-4">
+              <div className="text-2xl uppercase font-bold text-yellow-500 mb-4">
                 {t("hero.shop_name")}
-              </h1>
-              <h2 className="text-gray-400">{t("footer.tagline")}</h2>
+              </div>
+              <div className="text-gray-400">{t("footer.tagline")}</div>
             </div>
             <div>
-              <h1 className="text-xl font-bold border-l-4 border-l-yellow-500 px-3 mb-4">
+              <div className="text-xl font-bold border-l-4 border-l-yellow-500 px-3 mb-4">
                 {t("footer.links_title")}
-              </h1>
+              </div>
               <ul className="space-y-3 text-gray-400">
                 <li>
                   <Link
@@ -62,9 +62,9 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h1 className="text-xl font-bold border-l-4 border-l-yellow-500 px-3 mb-4">
+              <div className="text-xl font-bold border-l-4 border-l-yellow-500 px-3 mb-4">
                 {t("footer.contact_title")}
-              </h1>
+              </div>
               <div className="flex flex-col gap-3">
                 <p className="text-gray-400 flex items-center gap-3">
                   <FaWhatsapp className="text-yellow-500 text-xl" />

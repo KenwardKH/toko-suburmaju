@@ -77,15 +77,41 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "HardwareStore",
+              "@type": "HardwareStore", // Tipe bisnis
               name: "Toko Panglong Subur Maju",
+              image: "https://suburmaju.kenwardkh.my.id/assets/hero.jpg", // Tambahkan URL gambar
+              "@id": "https://suburmaju.kenwardkh.my.id",
               url: "https://suburmaju.kenwardkh.my.id",
+              telephone: "+6281263251128", // GANTI dengan nomor WA asli toko
+              priceRange: "$$", // Indikator harga (murah/menengah)
               address: {
                 "@type": "PostalAddress",
+                streetAddress: "Jl. Setia Budi, Simpang Selayang", // Alamat lengkap
                 addressLocality: "Medan",
                 addressRegion: "Sumatera Utara",
+                postalCode: "20132", // Sesuaikan kode pos
                 addressCountry: "ID",
               },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 3.5302446999396, //  koordinat asli dari Google Maps
+                longitude: 98.62026038642439, //  koordinat asli dari Google Maps
+              },
+              openingHoursSpecification: [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                  ],
+                  opens: "07:30",
+                  closes: "18:00",
+                },
+              ],
               areaServed: "Medan",
             }),
           }}

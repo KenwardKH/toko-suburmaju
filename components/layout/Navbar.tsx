@@ -38,9 +38,9 @@ export default function Navbar() {
       <nav className="bg-white shadow-md w-full">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-between h-16 items-center">
-            <h1 className="text-lg md:text-xl text-black font-bold uppercase tracking-wide">
-              <Link href="/">Suburmaju</Link>
-            </h1>
+            <Link href="/" className="text-lg md:text-xl text-black font-bold uppercase tracking-wide">
+              Suburmaju
+            </Link>
 
             <div className="hidden md:flex space-x-3 lg:space-x-6 text-lg">
               <Link href="/" className={getLinkClass("/")}>
@@ -70,11 +70,11 @@ export default function Navbar() {
         </div>
       </nav>
       <div
-        className={`flex md:hidden absolute w-full bg-white flex-col shadow-md border-t transition duration-300 ease-in-out origin-top ${
+        className={`flex md:hidden absolute w-full bg-white flex-col shadow-md border-t border-gray-200 transition duration-300 ease-in-out origin-top ${
           isOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0"
         }`}
       >
-        <ul className="border-b">
+        <ul className="border-b border-gray-100">
           <li>
             <Link href="/" className={getMobileLinkClass("/")}>
               {t("nav.home")}

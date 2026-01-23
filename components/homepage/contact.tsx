@@ -10,9 +10,9 @@ export default function ContactSection() {
     <section className="py-16 bg-yellow-500">
       <div className="container mx-auto">
         <div className="text-center mb-6">
-          <h1 className="font-bold text-3xl md:text-4xl mb-2">
+          <div className="font-bold text-3xl md:text-4xl mb-2">
             {t("contact.title")}
-          </h1>
+          </div>
           <p className="font-semibold text-lg md:text-xl">
             {t("contact.subtitle")}
           </p>
