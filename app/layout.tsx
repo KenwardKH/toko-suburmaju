@@ -77,7 +77,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "HardwareStore", // Tipe bisnis
+              "@type": "BuildingMaterialsStore", // Tipe bisnis
               name: "Toko Panglong Subur Maju",
               image: "https://suburmaju.kenwardkh.my.id/assets/hero.jpg", // Tambahkan URL gambar
               "@id": "https://suburmaju.kenwardkh.my.id",

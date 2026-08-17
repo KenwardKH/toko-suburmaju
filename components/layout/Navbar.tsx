@@ -46,13 +46,13 @@ export default function Navbar() {
               <Link href="/" className={getLinkClass("/")}>
                 {t("nav.home")}
               </Link>
-              <Link href="about" className={getLinkClass("/about")}>
+              <Link href="/about" className={getLinkClass("/about")}>
                 {t("nav.about")}
               </Link>
-              <Link href="products" className={getLinkClass("/products")}>
+              <Link href="/products" className={getLinkClass("/products")}>
                 {t("nav.products")}
               </Link>
-              <Link href="contact" className={getLinkClass("/contact")}>
+              <Link href="/contact" className={getLinkClass("/contact")}>
                 {t("nav.contact")}
               </Link>
             </div>

@@ -19,7 +19,7 @@ export default function ContactSection() {
         </div>
         <div className="flex flex-wrap flex-col md:flex-row justify-center items-center gap-4">
           <a
-            href="https://wa.me/6285761259083"
+            href="https://wa.me/6281263251128"
             target="_blank"
             rel="noreferrel"
           >

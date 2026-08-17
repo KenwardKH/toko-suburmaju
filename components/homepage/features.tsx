@@ -25,10 +25,10 @@ export default function Features() {
   return (
     <section className="py-16">
       <div className="text-center mb-12">
-        <div className="text-4xl font-bold mb-2">{t("features.title")}</div>
-        <div className="text-2xl font-semibold">
+        <h2 className="text-4xl font-bold mb-2">{t("features.title")}</h2>
+        <h3 className="text-2xl font-semibold">
           {t("features.subtitle")}
-        </div>
+        </h3>
       </div>
 
       <div className="container mx-auto px-6">

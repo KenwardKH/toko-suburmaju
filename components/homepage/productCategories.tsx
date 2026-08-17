@@ -41,8 +41,8 @@ export default function ProductCategories() {
     <section className="py-16 bg-stone-200">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <div className="text-4xl font-bold mb-2">{t("categories.title")}</div>
-          <div className="text-2xl font-semibold">{t("categories.subtitle")}</div>
+          <h2 className="text-4xl font-bold mb-2">{t("categories.title")}</h2>
+          <h3 className="text-2xl font-semibold">{t("categories.subtitle")}</h3>
         </div>
         <div className="w-full flex justify-center">
           <div className="flex flex-wrap justify-center gap-3 md:gap-8 max-w-7xl">
@@ -58,7 +58,7 @@ export default function ProductCategories() {
                 <div className="w-72 h-40 md:w-72 md:h-64 overflow-hidden relative">
                   <Image
                     src={item.img}
-                    alt={item.id}
+                    alt={`${item.filterValue} - Toko Subur Maju`}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover group-hover:scale-105 transform duration-500"

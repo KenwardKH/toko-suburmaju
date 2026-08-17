@@ -52,7 +52,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
   // Buat Link WA Lengkap
   // encodeURIComponent wajib dipakai agar spasi dan simbol tidak merusak link
-  const waLink = `https://wa.me/6285761259083?text=${encodeURIComponent(
+  const waLink = `https://wa.me/6281263251128?text=${encodeURIComponent(
     waMessage
   )}`;
 

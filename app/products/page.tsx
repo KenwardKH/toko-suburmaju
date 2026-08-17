@@ -1,9 +1,37 @@
 import ProductList from "@/components/products/ProductList";
 import { Suspense } from "react";
 
-export const metadata = {
-    title: "Daftar Produk"
-}
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Daftar Produk & Bahan Bangunan",
+  description:
+    "Katalog material bangunan lengkap di Medan: semen, besi beton, pasir, batu bata, cat tembok, pipa PVC, paku, dan alat pertukangan dengan harga distributor terbaik.",
+  alternates: {
+    canonical: "/products",
+  },
+  openGraph: {
+    title: "Katalog Produk Bahan Bangunan Medan | Toko Subur Maju",
+    description:
+      "Cari material bangunan berkualitas untuk proyek dan renovasi rumah Anda. Cek daftar produk dan harga distributor Toko Panglong Subur Maju Medan.",
+    url: "/products",
+    images: [
+      {
+        url: "/assets/hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Katalog Produk Toko Subur Maju",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Katalog Produk Bahan Bangunan Medan | Toko Subur Maju",
+    description:
+      "Cari material bangunan berkualitas untuk proyek dan renovasi rumah Anda. Cek daftar produk Toko Panglong Subur Maju Medan.",
+    images: ["/assets/hero.jpg"],
+  },
+};
 
 export default function ProductPage(){
     return (

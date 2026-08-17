@@ -20,12 +20,12 @@ export default function Contact() {
               <FaPhone className="text-xl text-yellow-600" />
             </div>
             <div>
-              <h1 className="text-xl font-bold mb-2">{t("contact_page.phone")}</h1>
+              <div className="text-xl font-bold mb-2">{t("contact_page.phone")}</div>
               <p className="text-lg mb-1">
                 +62 812-6325-1128
               </p>
               <a
-                href="https://wa.me/6285761259083"
+                href="https://wa.me/6281263251128"
                 target="_blank"
                 rel="noreferrel"
                 className="font-medium text-white bg-green-500 flex px-4 py-2 w-fit items-center gap-1 rounded-xl transition duration-300 hover:bg-green-600"
@@ -39,7 +39,7 @@ export default function Contact() {
               <FaMapLocationDot className="text-xl text-yellow-600" />
             </div>
             <div>
-              <h1 className="text-xl font-bold mb-2">{t("contact_page.address")}</h1>
+              <div className="text-xl font-bold mb-2">{t("contact_page.address")}</div>
               <p className="text-lg mb-1">
                 {t("hero.address")}
               </p>
@@ -56,7 +56,7 @@ export default function Contact() {
               <FaClock className="text-xl text-yellow-600" />
             </div>
             <div>
-              <h1 className="text-xl font-bold mb-2">{t("contact_page.hours")}</h1>
+              <div className="text-xl font-bold mb-2">{t("contact_page.hours")}</div>
               <p className="text-lg mb-1">{t("contact_page.hours_detail")}</p>
               <p className="text-lg font-medium text-red-600">
                 {t("contact_page.sunday")}

@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/assets/hero.jpg"
-          alt="hero.jpg"
+          alt="Toko Subur Maju - Material Bangunan"
           priority
           fill
           sizes="100vw"
