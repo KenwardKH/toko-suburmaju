@@ -16,15 +16,58 @@ export const metadata: Metadata = {
   description:
     "Cari bahan bangunan murah di Medan? Toko Subur Maju (Simpang Selayang) menyediakan semen, besi beton, pasir, batu bata, cat & alat tukang lengkap. Harga distributor & melayani pesan antar se-Kota Medan.",
   keywords: [
-    "Panglong Medan",
+    // Brand & Kategori Utama
+    "Toko Subur Maju",
+    "Panglong Subur Maju",
+    "Panglong Subur Maju Medan",
     "Toko Bangunan Medan",
-    "Jual Semen Murah Medan",
-    "Distributor Besi Beton Medan",
-    "Jual Pasir dan Batu Bata Medan",
-    "Toko Cat Medan",
+    "Panglong Medan",
+    "Toko Material Medan",
+    "Toko Bangunan Terdekat Medan",
+    "Panglong Terdekat Medan",
+    "Distributor Bahan Bangunan Medan",
+    "Material Bangunan Terlengkap Medan",
+
+    // Lokasi & Wilayah Sekitar
     "Panglong Simpang Selayang",
-    "Toko Bangunan Setia Budi",
-    "Material Bangunan Terlengkap",
+    "Toko Bangunan Simpang Selayang",
+    "Toko Bangunan Setia Budi Medan",
+    "Panglong Medan Tuntungan",
+    "Panglong Padang Bulan",
+    "Toko Bangunan Medan Selayang",
+    "Toko Material Medan Johor",
+
+    // Material Struktur & Cor
+    "Jual Semen Murah Medan",
+    "Harga Semen Padang Medan",
+    "Semen Merah Putih Medan",
+    "Semen Dynamix Medan",
+    "Distributor Besi Beton Medan",
+    "Harga Besi Beton SNI Medan",
+    "Baja Ringan Medan",
+    "Jual Pasir dan Batu Bata Medan",
+    "Pasir Cor Pasir Pasang Medan",
+    "Batu Split Cor Medan",
+    "Batako Medan",
+
+    // Finishing, Cat & Plumbing
+    "Toko Cat Medan",
+    "Cat Tembok Murah Medan",
+    "Cat Minyak Kayu dan Besi Medan",
+    "Pipa PVC Rucika Medan",
+    "Jual Pipa Paralon Medan",
+
+    // Kayu, Atap & Perlengkapan
+    "Jual Triplek Murah Medan",
+    "Kayu Kaso Medan",
+    "Seng Spandek Medan",
+    "Paku Baut dan Skrup Medan",
+    "Alat Tukang Bangunan Medan",
+
+    // Layanan & Pengiriman
+    "Pesan Antar Bahan Bangunan Medan",
+    "Supplier Material Proyek Medan",
+    "Grosir Bahan Bangunan Medan",
   ],
   authors: [{ name: "Toko Subur Maju" }],
   creator: "Toko Subur Maju",
